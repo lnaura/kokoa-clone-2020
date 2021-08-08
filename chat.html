@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kakao Talk</title>
+  </head>
+  <body id="chat-screen">
+    <!--<div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>17:33</span>
+        <i class="fas fa-location-arrow"></i>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">RYAN</h1>
+      </div>
+      <div class="alt-header__column">
+        <span> <i class="fab fa-sistrix fa-2x"></i></span>
+        <span> <i class="fas fa-bars fa-2x"></i> </span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, August 8, 2021</div>
+
+      <div class="messege-row">
+        <img
+          src="https://blog.kakaocdn.net/dn/0mySg/btqCUccOGVk/nQ68nZiNKoIEGNJkooELF1/img.jpg"
+        />
+        <div class="messege-row__ccontent">
+          <span class="messege__author">RYAN</span>
+          <div class="messege__info">
+            <span class="messege__bubble">Hello!</span>
+            <span class="messege__time">16:44</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="messege-row messege-row--own">
+        <div class="messege-row__ccontent">
+          <div class="messege__info">
+            <span class="messege__bubble">Hi nice to meet you!</span>
+            <span class="messege__time">16:44</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a messege..." />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <div class="no-mobile">Your screen is too big T-T</div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
