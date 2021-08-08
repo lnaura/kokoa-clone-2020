@@ -1,0 +1,32 @@
+.more-screen .icon-row {
+  margin: 35px 0px;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.suggestions {
+  margin-top: 15px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+.suggestions-title {
+  font-weight: 600;
+}
+
+.more-screen .icon-row__icon span {
+  color: var(--gray-font);
+  font-size: 15px;
+}
+.more-icon {
+  position: relative;
+}
+.more-icon__dot {
+  display: flex;
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  left: 182px;
+  bottom: 66px;
+}
