@@ -17,16 +17,3 @@
   color: var(--gray-font);
   font-size: 15px;
 }
-.more-icon {
-  position: relative;
-}
-.more-icon__dot {
-  display: flex;
-  position: absolute;
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  left: 182px;
-  bottom: 66px;
-}
