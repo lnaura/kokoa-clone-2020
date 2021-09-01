@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .icon-row__icon i {
   font-size: 30px;
@@ -21,4 +22,14 @@
   height: 50px;
   border-radius: 7px;
   margin-bottom: 15px;
+}
+.icon-row__dot {
+  display: flex;
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  left: 80px;
+  top: -8px;
 }
